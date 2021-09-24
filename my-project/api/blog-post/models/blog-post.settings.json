@@ -14,8 +14,23 @@
     "Title": {
       "type": "string"
     },
-    "Body": {
+    "Subtitle": {
       "type": "text"
+    },
+    "Cover": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Content": {
+      "type": "richtext"
     },
     "Media": {
       "collection": "file",
