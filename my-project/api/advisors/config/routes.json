@@ -2,48 +2,48 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/teams",
-      "handler": "team.find",
+      "path": "/advisors",
+      "handler": "advisors.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/teams/count",
-      "handler": "team.count",
+      "path": "/advisors/count",
+      "handler": "advisors.count",
       "config": {
         "policies": []
       }
     },
     {
       "method": "GET",
-      "path": "/teams/:id",
-      "handler": "team.findOne",
+      "path": "/advisors/:id",
+      "handler": "advisors.findOne",
       "config": {
         "policies": []
       }
     },
     {
       "method": "POST",
-      "path": "/teams",
-      "handler": "team.create",
+      "path": "/advisors",
+      "handler": "advisors.create",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/teams/:id",
-      "handler": "team.update",
+      "path": "/advisors/:id",
+      "handler": "advisors.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/teams/:id",
-      "handler": "team.delete",
+      "path": "/advisors/:id",
+      "handler": "advisors.delete",
       "config": {
         "policies": []
       }

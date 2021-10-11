@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/igrcs",
+      "handler": "igrc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/igrcs/count",
+      "handler": "igrc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/igrcs/:id",
+      "handler": "igrc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/igrcs",
+      "handler": "igrc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/igrcs/:id",
+      "handler": "igrc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/igrcs/:id",
+      "handler": "igrc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

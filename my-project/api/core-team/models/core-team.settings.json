@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "teams",
+  "collectionName": "core_teams",
   "info": {
-    "name": "Team",
+    "name": "Core team",
     "description": ""
   },
   "options": {
@@ -18,13 +18,10 @@
     "Role": {
       "type": "string"
     },
-    "Position": {
-      "type": "string"
+    "About": {
+      "type": "text"
     },
-    "Bio": {
-      "type": "richtext"
-    },
-    "Cover": {
+    "Image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
