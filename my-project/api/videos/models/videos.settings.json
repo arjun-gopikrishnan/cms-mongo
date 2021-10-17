@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "videos",
   "info": {
-    "name": "Videos"
+    "name": "videos"
   },
   "options": {
     "increments": true,
@@ -21,8 +21,11 @@
         "videos"
       ],
       "plugin": "upload",
-      "required": true,
+      "required": false,
       "pluginOptions": {}
+    },
+    "Subtitle": {
+      "type": "text"
     }
   }
 }
